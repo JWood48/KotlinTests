@@ -21,7 +21,7 @@ val store = createStore(
     , rEnhancer()
 )
 
-fun mainDisabled() {
+fun main() {
 
     console.log("STARTING...")
 

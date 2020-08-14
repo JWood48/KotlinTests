@@ -4,9 +4,7 @@ import app.enums.VisibilityFilter
 import redux.Action
 import redux.RAction
 
-class SetVisibilityFilter(val filter: VisibilityFilter) : Action {
-    override val type : String = this::class.simpleName!!
-}
+class SetVisibilityFilter(val filter: VisibilityFilter) : RAction
 
 class AddTodo(val text: String): RAction {
     private companion object {
